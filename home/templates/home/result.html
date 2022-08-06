@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Results</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'result.css' %}" />
+  </head>
+  <body>
+    <h1 class="heading">Automobile services near your location</h1>
+    <br />
+    {% for data in final_data%} {% if data.location == user_location %}
+    <div class="container">
+      <div class="sub-container">
+        <h2 class="name">{{data.detail1}}</h2>
+        <h3 class="det2">{{data.detail2}}</h3>
+        <h3 class="det3">{{data.detail3}}</h3>
+        <h3 class="det4">{{data.detail4}}</h3>
+        <h3 class="det5">{{data.detail5}}</h3>
+      </div>
+    </div>
+    <br /><br />
+    {% endif %} {% endfor %}
+  </body>
+</html>

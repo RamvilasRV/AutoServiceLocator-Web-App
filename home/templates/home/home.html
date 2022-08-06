@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Home page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home.css' %}" />
+  </head>
+  <body>
+    <h1 class="heading">Find automobile services near any location...</h1>
+    <form autocomplete="off" action="scrape">
+      <input
+        class="form_input"
+        type="text"
+        name="location"
+        placeholder="Enter the location here"
+      /><br />
+      <input id="btn" class="submit_btn" type="submit" value="SUBMIT" />
+    </form>
+    <script>
+      $("#gera_frase").on(
+        "click",
+        () => (document.getElementById("btn").innerText = "{{'loading......'}}")
+      );
+    </script>
+  </body>
+</html>
