@@ -2,8 +2,8 @@
 AutoServiceLocator is a Django web application designed to assist users in finding automobile service centers near a specified location. The application utilizes Selenium to scrape the internet for nearby service centers based on the user's entered location.
 
 ## Features
-1 Location-based Search: Users can input their desired location, and the web app will fetch and display nearby automobile service centers.
-2 Selenium Scraping: The application uses Selenium to dynamically scrape the internet for real-time data on service center locations, ensuring up-to-date and accurate results.
+1. Location-based Search: Users can input their desired location, and the web app will fetch and display nearby automobile service centers.
+2. Selenium Scraping: The application uses Selenium to dynamically scrape the internet for real-time data on service center locations, ensuring up-to-date and accurate results.
 3 User-Friendly Interface: The web app provides an intuitive and user-friendly interface, making it easy for users to search for service centers.
 
 ## Usage
