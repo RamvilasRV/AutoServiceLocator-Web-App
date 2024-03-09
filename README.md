@@ -17,4 +17,6 @@ AutoServiceLocator is a Django web application designed to assist users in findi
 2. Selenium: Web scraping tool used to fetch real-time data on service center locations.
 
 ## Screenshots
+![image](https://github.com/RamvilasRV/AutoServiceLocator-Web-App/assets/72241424/563f3e3e-de41-4792-a9b1-a5eb35d0028f)
+
 ![image](https://github.com/RamvilasRV/AutoServiceLocator-Web-App/assets/72241424/beb1244b-612b-4c78-ac90-877d0c34be22)
