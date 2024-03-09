@@ -15,3 +15,6 @@ AutoServiceLocator is a Django web application designed to assist users in findi
 ## Technologies Used
 1. Django: Web framework for building the application.
 2. Selenium: Web scraping tool used to fetch real-time data on service center locations.
+
+## Screenshots
+![image](https://github.com/RamvilasRV/AutoServiceLocator-Web-App/assets/72241424/beb1244b-612b-4c78-ac90-877d0c34be22)
